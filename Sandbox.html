@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flow chart</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .drag-board {
+        width: 50%;
+        height: 50vh;
+        border: 1px solid rebeccapurple;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    .dragable {
+        position: absolute;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="drag-board">
+        <div class="shape circle"></div>
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
